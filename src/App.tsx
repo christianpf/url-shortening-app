@@ -1,9 +1,18 @@
+import Navbar from "@/layouts/navbar";
+import Hero from "@/layouts/hero";
+
+
 function App() {
 
 
   return (
     <div className="app">
-      <p className="text-lg text-violet-gray ">Holo</p>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Hero />
+      </main>
     </div>
   )
 }

@@ -4,6 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
 html,
 body,
 #root,
@@ -11,5 +27,5 @@ body,
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
-  @apply text-gray-400;
+  @apply text-gray-400 font-medium;
 }

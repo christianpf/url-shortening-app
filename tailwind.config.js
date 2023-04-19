@@ -17,7 +17,14 @@ export default {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-      }
+      },
+      backgroundImage:{
+        "cta-desktop": "url('./assets/bg-boost-desktop.svg')",
+        "cta-mobile": "url('./assets/bg-boost-mobile.svg')",
+        "shorten-desktop": "url('./assets/bg-shorten-desktop.svg')",
+        "shorten-mobile": "url('./assets/bg-shorten-mobile.svg')",
+        "hero-image": "url('./src/assets/illustration-working.svg')",
+      },
     },
   },
   plugins: [],
