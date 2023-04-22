@@ -12,6 +12,7 @@ export default {
         "violet-700": "hsl(257, 27%, 26%)",
         "violet-900": "hsl(260, 8%, 14%)",
         "red-400": "hsl(0, 87%, 67%)",
+        "gray-100": "#f0f1f6",
         "gray-400": "hsl(0, 0%, 75%)",
         "violet-gray": "hsl(257, 7%, 63%)",
       },
