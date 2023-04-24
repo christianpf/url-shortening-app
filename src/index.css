@@ -29,3 +29,11 @@ body,
   font-family: "Poppins", sans-serif;
   @apply text-gray-400 font-medium;
 }
+
+footer a {
+  @apply hover:text-cyan-400;
+}
+
+footer li{
+  @apply pb-4;
+}

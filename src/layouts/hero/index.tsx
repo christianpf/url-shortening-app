@@ -10,7 +10,7 @@ const Hero = (props: Props) => {
     <section > 
       <div className="flex flex-col-reverse lg:flex-row items-center md:justify-center justify-between gap-8 lg:gap-0 w-5/6 2xl:w-4/6 mx-auto lg:py-16">
         <div className="text-center lg:text-start w-full lg:w-1/2 ">
-          <h1 className="text-gray-800 font-bold text-4xl lg:text-7xl leading-[1.125] tracking-tight">
+          <h1 className="text-violet-900 font-bold text-4xl lg:text-7xl leading-[1.125] tracking-tight">
             More than just Shorter links
           </h1>
           <p className="font-medium text-lg lg:text-xl pt-2 ">
