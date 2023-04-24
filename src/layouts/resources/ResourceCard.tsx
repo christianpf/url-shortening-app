@@ -13,7 +13,7 @@ function ResourceCard({margin, title, copy, img}: Props) {
 
   return (
     <article className={`relative bg-white p-8 w-full`} style={{marginTop: isDesktopScreen ? `${margin}px` : "0"}}>
-      <img className='absolute transition-transform -top-8 left-[42%] md:left-[46%] lg:left-auto bg-violet-700 rounded-full p-4 w-16' src={`/src/assets/${img}`} alt="Resource Icon" />
+      <img className='absolute transition-transform -top-8 left-[42%] md:left-[46%] lg:left-auto bg-violet-700 rounded-full p-4 w-16' src={img} alt="Resource Icon" />
       <div className='pt-8'>
         <h2 className='font-bold text-black text-xl'>
           {title}

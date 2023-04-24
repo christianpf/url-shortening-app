@@ -1,9 +1,12 @@
 import ResourceCard from "./ResourceCard";
 import resourcesData from "@/data/resources.json";
-import l from "@/assets/icon-fully-customizable.svg";
+import fcImg from "@/assets/icon-fully-customizable.svg";
+import brImg from "@/assets/icon-brand-recognition.svg";
+import drImg from "@/assets/icon-detailed-records.svg";
 
 const Resources = () => {
   const resources = resourcesData.resources;
+  const imgs = [brImg, drImg, fcImg];
 
   return (
     <section className="bg-gray-100 pb-32">
@@ -26,7 +29,7 @@ const Resources = () => {
                 margin={index*80}
                 title={r.title}
                 copy={r.copy}
-                img={r.img}
+                img={imgs[index]}
               />
             );
           })}
