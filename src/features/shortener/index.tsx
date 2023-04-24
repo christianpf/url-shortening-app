@@ -34,7 +34,7 @@ const Shortener = (props: Props) => {
 
   return (
     <>
-      <div className="w-5/6 2xl:4/6 mx-auto  bg-shorten-mobile bg-no-repeat bg-right-top md:bg-shorten-desktop bg-violet-700 p-6 md:p-6 lg:p-10 rounded-lg ">
+      <div className="w-5/6 2xl:w-4/6 mx-auto  bg-shorten-mobile bg-no-repeat bg-right-top md:bg-shorten-desktop bg-violet-700 p-6 md:p-6 lg:p-10 rounded-lg ">
         <form
           onSubmit={handleSubmit}
           className="flex flex-col gap-2 md:gap-8 md:flex-row justify-between w-full mx-auto"

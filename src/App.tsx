@@ -16,6 +16,7 @@ function App() {
         <Hero />
         <ShortenerSection />
         <Resources />
+        <div className="pt-12"></div>
       </main>
     </div>
   )
