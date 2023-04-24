@@ -17,7 +17,7 @@ const Hero = (props: Props) => {
             Build your brand’s recognition and get detailed insights 
             on how your links are performing.
           </p>
-          <ActionButton content="Get Started" url="#start" addedClases="mt-8 px-10 py-3"/>
+          <ActionButton url="#start" addedClases="mt-8 px-10 py-3">Get Started</ActionButton>
         </div>
         
           <img className="overflow-visible object-cover pl-48 lg:pl-72 w-full lg:w-1/2 h-[400px] lg:h-[500px] " alt="" src={heroImage} />

@@ -33,7 +33,7 @@ const Navbar = (props: Props) => {
             {/*RIGHT SIDE*/}
             <div className={`${flexBetween} gap-12`}>
               <NavLink content="Login" url="#login" />
-              <ActionButton content="Sign up" url="#sign-up" />
+              <ActionButton url="#sign-up">Sign up</ActionButton>
             </div>
           </div>
         ) : (
@@ -58,7 +58,7 @@ const Navbar = (props: Props) => {
             <NavLink content="Resources" url="#resources" isModalLink={true} />
             <div className="border-b-[1px] border-violet-gray w-full opacity-25"></div>
             <NavLink content="Login" url="#login" isModalLink={true} />
-            <ActionButton content="Sign up" url="#sign-up" isModal={true} />
+            <ActionButton url="#sign-up" isModal={true}>Sign up</ActionButton>
           </div>
         </div>
       )}
